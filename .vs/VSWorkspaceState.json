@@ -1,14 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\dist",
     "\\dist\\bigdata-maps",
     "\\dist\\bigdata-maps\\assets",
     "\\dist\\bigdata-maps\\assets\\data",
     "\\src",
     "\\src\\app",
     "\\src\\app\\map",
-    "\\src\\app\\models"
+    "\\src\\app\\services"
   ],
-  "SelectedNode": "\\src\\app\\services",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
