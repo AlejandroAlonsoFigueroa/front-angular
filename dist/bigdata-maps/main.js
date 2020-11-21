@@ -41,7 +41,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-map></app-map>\n"
+module.exports = "<app-map></app-map>\r\n"
 
 /***/ }),
 
@@ -149,7 +149,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".map-container {\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    margin: 30px;\n  }\n  \n  .map-frame {\n    border: 2px solid black;\n    height: 100%;\n  }\n  \n  #map {\n    height: 100%;\n  }"
+module.exports = ".map-container {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    margin: 30px;\r\n  }\r\n  \r\n  .map-frame {\r\n    border: 2px solid black;\r\n    height: 100%;\r\n  }\r\n  \r\n  #map {\r\n    height: 100%;\r\n  }"
 
 /***/ }),
 
@@ -160,7 +160,7 @@ module.exports = ".map-container {\n    position: absolute;\n    top: 0;\n    le
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div> \n        \n  <label class=\"container\"> \n       <b> Estado </b>\n         \n       <select  name=\"selectedEstado\" id=\"selectedEstado\" [(ngModel)]=\"selectedEstado\" (change)=\"changeEstado();\">\n        <option *ngFor=\"let edo of arrEstados; let i = index\" [value]=\"edo.idestado\">\n          {{edo.estado}}\n        </option>\n      </select>\n     \n       <b> Municipio </b>\n       <select  name=\"selectedMunicipio\" id=\"selectedMunicipio\" [(ngModel)]=\"selectedMunicipio\">\n        <option *ngFor=\"let mun of arrMunicipios; let i = index\" [value]=\"mun.idmunicipio\">\n          {{mun.municipio}}\n        </option>\n      </select>\n\n      \n       <b> Unidad Economica </b>\n       <select  name=\"selectedUnidad\" id=\"selectedUnidad\" [(ngModel)]=\"selectedUnidad\">\n        <option *ngFor=\"let uni of arrActividades; let i = index\" [value]=\"uni.tipo\">\n          {{uni.descripcion}}\n        </option>\n      </select>\n      {{selectedUnidad}}\n      <button (click)=\"buscarDenues()\" type=”button”>Buscar</button>\n\n</label>\n</div>\n\n<div class=\"map-container\">\n  <div class=\"map-frame\">\n    <div id=\"map\"></div>\n  </div>\n</div>"
+module.exports = "<div> \r\n        \r\n  <label class=\"container\"> \r\n       <b> Estado </b>\r\n         \r\n       <select  name=\"selectedEstado\" id=\"selectedEstado\" [(ngModel)]=\"selectedEstado\" (change)=\"changeEstado();\">\r\n        <option *ngFor=\"let edo of arrEstados; let i = index\" [value]=\"edo.idestado\">\r\n          {{edo.estado}}\r\n        </option>\r\n      </select>\r\n     \r\n       <b> Municipio </b>\r\n       <select  name=\"selectedMunicipio\" id=\"selectedMunicipio\" [(ngModel)]=\"selectedMunicipio\">\r\n        <option *ngFor=\"let mun of arrMunicipios; let i = index\" [value]=\"mun.idmunicipio\">\r\n          {{mun.municipio}}\r\n        </option>\r\n      </select>\r\n\r\n      \r\n       <b> Unidad Economica </b>\r\n       <select  name=\"selectedUnidad\" id=\"selectedUnidad\" [(ngModel)]=\"selectedUnidad\">\r\n        <option *ngFor=\"let uni of arrActividades; let i = index\" [value]=\"uni.tipo\">\r\n          {{uni.descripcion}}\r\n        </option>\r\n      </select>\r\n      {{selectedUnidad}}\r\n      <button (click)=\"buscarDenues()\" type=”button”>Buscar</button>\r\n\r\n</label>\r\n</div>\r\n\r\n<div class=\"map-container\">\r\n  <div class=\"map-frame\">\r\n    <div id=\"map\"></div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -300,7 +300,7 @@ var DataApiService = /** @class */ (function () {
     function DataApiService(http) {
         this.http = http;
         //apiURL = 'http://localhost:8080/api/auth/';
-        this.apiURL = 'http://104.198.244.0:8192/api/auth/';
+        this.apiURL = 'http://104.198.244.0:5001/api/auth/';
         /*========================================
           CRUD Methods for consuming RESTful API
         =========================================*/
@@ -559,7 +559,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/m/Desktop/bigdata-maps/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\alexa\Desktop\bigdata-maps\src\main.ts */"./src/main.ts");
 
 
 /***/ })
