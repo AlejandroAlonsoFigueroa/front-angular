@@ -16,7 +16,7 @@ export class DataApiService {
  
 
   //apiURL = 'http://localhost:8080/api/auth/';
-  apiURL = 'http://104.198.244.0:5040/api/auth/';
+  apiURL = 'http://104.198.244.0:5045/api/auth/';
   
   
   constructor(
